@@ -24,7 +24,7 @@ class action_plugin_flowcharts extends DokuWiki_Action_Plugin
                             'type'    => 'text/javascript',
                             'charset' => 'utf-8',
                             '_data'   => '',
-                            'src' => DOKU_BASE."lib/plugins/flowcharts/mermaid.min.js");
+                            'src' => DOKU_BASE."lib/plugins/flowcharts/mermaid-8.5.min.js");
         
         $event->data['script'][] = array(
                             'type'    => 'text/javascript',
